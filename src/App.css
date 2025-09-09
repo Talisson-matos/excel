@@ -5,18 +5,19 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #f8fafc;
   padding: 2rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+   
 }
 
 .excel-extractor-primary-heading {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #1e293b;
-  margin-bottom: 2.5rem;
+  color: #02122b;
+
   text-align: center;
   letter-spacing: -0.025em;
+
 }
 
 .excel-extractor-navigation-container {
@@ -54,6 +55,20 @@
   background-color: #059669;
   color: #ffffff;
   border-color: #059669;
+}
+
+.excel_imagem{
+display: flex;
+justify-content: center;
+gap: 10px;
+align-items: center;
+ margin-bottom: 2rem;
+}
+
+.excel_imagem img{
+  width: 50px;
+  height: 50px;
+ 
 }
 
 .excel-extractor-btn-acabados:hover {

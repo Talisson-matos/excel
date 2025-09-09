@@ -5,6 +5,7 @@ import App from './App.tsx'
 import NotFound from './pages/NotFound/NotFound.tsx'
 import Insumos from './pages/Insumo/Insumo.tsx'
 import Acabado from './pages/Acabado/Acabado.tsx'
+import './index.css'
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },

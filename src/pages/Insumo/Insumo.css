@@ -1,7 +1,7 @@
 /* Insumos Extractor - Estilos Específicos */
 .insumos-extractor-main-container {
   min-height: 100vh;
-  background-color: #f8fafc;
+  background-color: rgb(90, 156, 156) !important;
   padding: 1.5rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }

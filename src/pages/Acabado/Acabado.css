@@ -1,0 +1,210 @@
+/* Acabado Extractor - Estilos Específicos */
+.acabado-extractor-main-container {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  padding: 1.5rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.acabado-extractor-navigation-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 2rem;
+}
+
+.acabado-extractor-content-card {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+}
+
+.acabado-extractor-page-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 2rem;
+  text-align: center;
+  letter-spacing: -0.025em;
+}
+
+.acabado-extractor-controls-wrapper {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.acabado-extractor-file-info {
+  padding: 1rem;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 1px solid #e2e8f0;
+}
+
+.acabado-extractor-file-name {
+  font-weight: 500;
+  color: #475569;
+}
+
+.acabado-extractor-rows-counter {
+  color: #64748b;
+  font-size: 0.875rem;
+}
+
+.acabado-extractor-line-selector {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f8fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.acabado-extractor-line-label {
+  font-weight: 500;
+  color: #374151;
+  white-space: nowrap;
+}
+
+.acabado-extractor-line-input {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  width: 80px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.acabado-extractor-line-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.acabado-extractor-form-fields {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.acabado-extractor-field-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.acabado-extractor-field-label {
+  font-weight: 500;
+  color: #374151;
+  font-size: 0.875rem;
+}
+
+.acabado-extractor-field-input {
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  background-color: #ffffff;
+  transition: border-color 0.2s ease;
+}
+
+.acabado-extractor-field-input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.acabado-extractor-field-input::placeholder {
+  color: #9ca3af;
+}
+
+.acabado-extractor-actions-section {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.acabado-extractor-btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.acabado-extractor-btn-insumo {
+  background-color: #dc2626;
+  color: #ffffff;
+}
+
+.acabado-extractor-btn-insumo:hover {
+  background-color: #b91c1c;
+}
+
+.acabado-extractor-btn-export {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.acabado-extractor-btn-export:hover {
+  background-color: #1d4ed8;
+}
+
+.acabado-extractor-btn-clear {
+  background-color: #6b7280;
+  color: #ffffff;
+}
+
+.acabado-extractor-btn-clear:hover {
+  background-color: #4b5563;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .acabado-extractor-main-container {
+    padding: 1rem;
+  }
+  
+  .acabado-extractor-content-card {
+    padding: 1.5rem;
+  }
+  
+  .acabado-extractor-page-title {
+    font-size: 1.5rem;
+  }
+  
+  .acabado-extractor-line-selector {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+  
+  .acabado-extractor-line-input {
+    width: 100%;
+  }
+  
+  .acabado-extractor-actions-section {
+    flex-direction: column;
+  }
+  
+  .acabado-extractor-btn {
+    width: 100%;
+  }
+}

@@ -1,263 +1,95 @@
-/* App.css */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #f5f5f5;
-}
-
-.app-container {
+/* Excel Extractor - Estilos Específicos */
+.excel-extractor-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+  background-color: #f8fafc;
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-.app-card {
-  background: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  padding: 32px;
-  width: 100%;
-  max-width: 500px;
-}
-
-.app-title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #1f2937;
+.excel-extractor-primary-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #1e293b;
+  margin-bottom: 2.5rem;
   text-align: center;
-  margin-bottom: 32px;
+  letter-spacing: -0.025em;
 }
 
-/* File Uploader */
-.file-uploader {
-  margin-bottom: 24px;
-}
-
-.file-label {
-  display: block;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #374151;
-  margin-bottom: 8px;
-}
-
-.file-input {
-  display: block;
-  width: 100%;
-  font-size: 0.875rem;
-  color: #6b7280;
-  background: #f9fafb;
-  border: 2px dashed #d1d5db;
-  border-radius: 8px;
-  padding: 12px;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-}
-
-.file-input:hover {
-  background: #f3f4f6;
-  border-color: #9ca3af;
-}
-
-.file-input:focus {
-  outline: none;
-  border-color: #3b82f6;
-  background: white;
-}
-
-/* Controls Section */
-.controls-section {
+.excel-extractor-navigation-container {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
-.arquivo-info {
-  background: #eff6ff;
-  border: 1px solid #bfdbfe;
-  border-radius: 8px;
-  padding: 12px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  gap: 1.5rem;
   flex-wrap: wrap;
-  gap: 8px;
-}
-
-.arquivo-nome {
-  font-weight: 600;
-  color: #1e40af;
-  flex-grow: 1;
-}
-
-.linhas-count {
-  font-size: 0.875rem;
-  color: #6b7280;
-  background: white;
-  padding: 4px 8px;
-  border-radius: 4px;
-}
-
-/* Linha Selector */
-.linha-selector {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.linha-label {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #374151;
-  white-space: nowrap;
-}
-
-.linha-input {
-  flex: 1;
-  min-width: 100px;
-  border: 1px solid #d1d5db;
-  border-radius: 6px;
-  padding: 8px 12px;
-  font-size: 0.875rem;
-  transition: border-color 0.2s ease-in-out;
-}
-
-.linha-input:focus {
-  outline: none;
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-}
-
-/* Buttons Section */
-.buttons-section {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
-}
-
-.btn {
-  flex: 1;
-  min-width: 120px;
-  padding: 10px 16px;
-  border: none;
-  border-radius: 6px;
-  font-size: 0.875rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 6px;
+  align-items: center;
 }
 
-.btn-primary {
+.excel-extractor-btn {
+  padding: 0.875rem 1.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  text-align: center;
+  min-width: 160px;
+  border: 1px solid transparent;
+}
+
+.excel-extractor-btn-insumos {
+  background-color: #dc2626;
+  color: #ffffff;
+  border-color: #dc2626;
+}
+
+.excel-extractor-btn-insumos:hover {
+  background-color: #b91c1c;
+  border-color: #b91c1c;
+}
+
+.excel-extractor-btn-acabados {
   background-color: #059669;
-  color: white;
+  color: #ffffff;
+  border-color: #059669;
 }
 
-.btn-primary:hover {
+.excel-extractor-btn-acabados:hover {
   background-color: #047857;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(5, 150, 105, 0.3);
+  border-color: #047857;
 }
 
-.btn-primary:active {
-  transform: translateY(0);
+/* Responsividade */
+@media (max-width: 768px) {
+  .excel-extractor-main-wrapper {
+    padding: 1rem;
+  }
+  
+  .excel-extractor-primary-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .excel-extractor-navigation-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .excel-extractor-btn {
+    width: 100%;
+    max-width: 280px;
+  }
 }
 
-.btn-secondary {
-  background-color: #6b7280;
-  color: white;
-}
-
-.btn-secondary:hover {
-  background-color: #4b5563;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 8px rgba(107, 114, 128, 0.3);
-}
-
-.btn-secondary:active {
-  transform: translateY(0);
-
-}
-
-/* Campos de formulário */
-.form-fields {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.field-group {
-  display: flex;
-  flex-direction: column;
-}
-
-.field-label {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #374151;
-  margin-bottom: 6px;
-}
-
-.field-input {
-  border: 1px solid #d1d5db;
-  border-radius: 6px;
-  padding: 10px 12px;
-  font-size: 0.9rem;
-  transition: all 0.2s ease-in-out;
-}
-
-.field-input:focus {
-  outline: none;
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
-}
-
-
-/* Responsive Design */
 @media (max-width: 480px) {
-  .app-card {
-    padding: 20px;
+  .excel-extractor-primary-heading {
+    font-size: 2rem;
   }
   
-  .app-title {
-    font-size: 1.5rem;
-    margin-bottom: 24px;
-  }
-  
-  .buttons-section {
-    flex-direction: column;
-  }
-  
-  .btn {
-    min-width: auto;
-  }
-  
-  .linha-selector {
-    flex-direction: column;
-    align-items: stretch;
-  }
-  
-  .linha-label {
-    white-space: normal;
-  }
-
-  .form-fields {
-    gap: 12px;
+  .excel-extractor-btn {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
   }
 }

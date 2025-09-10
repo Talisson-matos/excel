@@ -1,4 +1,12 @@
 /* Excel Extractor - Estilos Específicos */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(2, 4, 43) ;
+
+}
+
 .excel-extractor-main-wrapper {
   display: flex;
   flex-direction: column;
@@ -13,8 +21,7 @@
 .excel-extractor-primary-heading {
   font-size: 2.5rem;
   font-weight: 600;
-  color: #02122b;
-
+  color: aliceblue;
   text-align: center;
   letter-spacing: -0.025em;
 
@@ -32,16 +39,15 @@
   padding: 0.875rem 1.75rem;
   font-size: 1rem;
   font-weight: 500;
-  text-decoration: none;
-  border-radius: 8px;
+  text-decoration: none;  
   transition: all 0.2s ease;
   text-align: center;
-  min-width: 160px;
+  width: 200px;
   border: 1px solid transparent;
 }
 
 .excel-extractor-btn-insumos {
-  background-color: #dc2626;
+  background-color: #9b0000;
   color: #ffffff;
   border-color: #dc2626;
 }
@@ -52,14 +58,14 @@
 }
 
 .excel-extractor-btn-acabados {
-  background-color: #059669;
+  background-color: #006b49;
   color: #ffffff;
   border-color: #059669;
 }
 
 
 .excel-extractor-btn-unidocs {
-  background-color: #1e40af;
+  background-color: #012aaf;
   color: #ffffff;
   border-color: #1e40af;
 }

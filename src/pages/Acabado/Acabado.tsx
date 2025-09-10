@@ -130,9 +130,15 @@ function Acabado() {
     return (
     <div className="acabado-extractor-main-container">
         <div className="acabado-extractor-navigation-buttons">
+
             <Link to="/insumo" className="acabado-extractor-btn acabado-extractor-btn-insumo">
                 Garrafa Insumos
             </Link>
+
+            <Link to="/unidocs" className="acabado-extractor-btn excel-extractor-btn-unidocs">
+              Unidocs
+            </Link>
+
         </div>
         <div className="acabado-extractor-content-card">
             <h1 className="acabado-extractor-page-title">Produto Acabado</h1>

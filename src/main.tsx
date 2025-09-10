@@ -6,11 +6,13 @@ import NotFound from './pages/NotFound/NotFound.tsx'
 import Insumos from './pages/Insumo/Insumo.tsx'
 import Acabado from './pages/Acabado/Acabado.tsx'
 import './index.css'
+import Unidocs from './pages/Unidocs/Unidocs.tsx'
 
 const router = createBrowserRouter([
   { path: '/', element: <App /> },
   { path: '/insumo', element:<Insumos /> },
   { path: '/acabado', element:<Acabado />  },
+  { path: '/unidocs', element:<Unidocs />  },
   { path: '*', element: <NotFound />  }, 
 ])
 

@@ -1,19 +1,19 @@
-/* Acabado Extractor - Estilos Específicos */
-.acabado-extractor-main-container {
+/* Insumos Extractor - Estilos Específicos */
+.insumos-extractor-main-container {
   min-height: 100vh;
   background-color: rgb(90, 156, 156) !important;
   padding: 1.5rem;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-.acabado-extractor-navigation-buttons {
+.insumos-extractor-navigation-buttons {
   display: flex;
   justify-content: flex-end;
   margin-bottom: 2rem;
   gap: 6px;
 }
 
-.acabado-extractor-content-card {
+.insumos-extractor-content-card {
   max-width: 800px;
   margin: 0 auto;
   background-color: #ffffff;
@@ -23,7 +23,7 @@
   border: 1px solid #e2e8f0;
 }
 
-.acabado-extractor-page-title {
+.insumos-extractor-page-title {
   font-size: 2rem;
   font-weight: 600;
   color: #1e293b;
@@ -32,14 +32,14 @@
   letter-spacing: -0.025em;
 }
 
-.acabado-extractor-controls-wrapper {
+.insumos-extractor-controls-wrapper {
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
 }
 
-.acabado-extractor-file-info {
+.insumos-extractor-file-info {
   padding: 1rem;
   background-color: #f1f5f9;
   border-radius: 8px;
@@ -49,17 +49,17 @@
   border: 1px solid #e2e8f0;
 }
 
-.acabado-extractor-file-name {
+.insumos-extractor-file-name {
   font-weight: 500;
   color: #475569;
 }
 
-.acabado-extractor-rows-counter {
+.insumos-extractor-rows-counter {
   color: #64748b;
   font-size: 0.875rem;
 }
 
-.acabado-extractor-line-selector {
+.insumos-extractor-line-selector {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -69,13 +69,13 @@
   border: 1px solid #e2e8f0;
 }
 
-.acabado-extractor-line-label {
+.insumos-extractor-line-label {
   font-weight: 500;
   color: #374151;
   white-space: nowrap;
 }
 
-.acabado-extractor-line-input {
+.insumos-extractor-line-input {
   padding: 0.5rem 0.75rem;
   border: 1px solid #d1d5db;
   border-radius: 6px;
@@ -85,31 +85,31 @@
   background-color: #ffffff;
 }
 
-.acabado-extractor-line-input:focus {
+.insumos-extractor-line-input:focus {
   outline: none;
   border-color: #3b82f6;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
-.acabado-extractor-form-fields {
+.insumos-extractor-form-fields {
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
 }
 
-.acabado-extractor-field-group {
+.insumos-extractor-field-group {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 
-.acabado-extractor-field-label {
+.insumos-extractor-field-label {
   font-weight: 500;
   color: #374151;
   font-size: 0.875rem;
 }
 
-.acabado-extractor-field-input {
+.insumos-extractor-field-input {
   padding: 0.75rem;
   border: 1px solid #d1d5db;
   border-radius: 6px;
@@ -118,24 +118,24 @@
   transition: border-color 0.2s ease;
 }
 
-.acabado-extractor-field-input:focus {
+.insumos-extractor-field-input:focus {
   outline: none;
   border-color: #3b82f6;
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
-.acabado-extractor-field-input::placeholder {
+.insumos-extractor-field-input::placeholder {
   color: #9ca3af;
 }
 
-.acabado-extractor-actions-section {
+.insumos-extractor-actions-section {
   display: flex;
   gap: 1rem;
   justify-content: center;
   margin-top: 1rem;
 }
 
-.acabado-extractor-btn {
+.insumos-extractor-btn {
   padding: 0.75rem 1.5rem;
   font-size: 0.875rem;
   font-weight: 500;
@@ -150,74 +150,62 @@
   gap: 0.5rem;
 }
 
-.acabado-extractor-btn-insumo {
-  background-color: #dc2626;
+.insumos-extractor-btn-acabado {
+  background-color: #059669;
   color: #ffffff;
 }
 
-.acabado-extractor-btn-insumo:hover {
-  background-color: #b91c1c;
+.insumos-extractor-btn-acabado:hover {
+  background-color: #047857;
 }
 
-.acabado-extractor-btn-export {
+.insumos-extractor-btn-export {
   background-color: #2563eb;
   color: #ffffff;
 }
 
-.acabado-extractor-btn-export:hover {
+.insumos-extractor-btn-export:hover {
   background-color: #1d4ed8;
 }
 
-.acabado-extractor-btn-clear {
+.insumos-extractor-btn-clear {
   background-color: #6b7280;
   color: #ffffff;
 }
 
-.acabado-extractor-btn-clear:hover {
+.insumos-extractor-btn-clear:hover {
   background-color: #4b5563;
 }
 
-.excel-extractor-btn-unidocs {
-  background-color: #1e40af;
-  color: #ffffff;
-  border-color: #1e40af;
-}
-
-.excel-extractor-btn-unidocs:hover {
-  background-color: #1a347c;
-  border-color: #193279;
-}
-
-
 /* Responsividade */
 @media (max-width: 768px) {
-  .acabado-extractor-main-container {
+  .insumos-extractor-main-container {
     padding: 1rem;
   }
   
-  .acabado-extractor-content-card {
+  .insumos-extractor-content-card {
     padding: 1.5rem;
   }
   
-  .acabado-extractor-page-title {
+  .insumos-extractor-page-title {
     font-size: 1.5rem;
   }
   
-  .acabado-extractor-line-selector {
+  .insumos-extractor-line-selector {
     flex-direction: column;
     align-items: stretch;
     gap: 0.5rem;
   }
   
-  .acabado-extractor-line-input {
+  .insumos-extractor-line-input {
     width: 100%;
   }
   
-  .acabado-extractor-actions-section {
+  .insumos-extractor-actions-section {
     flex-direction: column;
   }
   
-  .acabado-extractor-btn {
+  .insumos-extractor-btn {
     width: 100%;
   }
 }

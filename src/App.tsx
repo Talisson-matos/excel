@@ -17,6 +17,9 @@ const App: React.FC = () => {
         <Link to="/acabado" className="excel-extractor-btn excel-extractor-btn-acabados">
           Produto Acabado
         </Link>
+        <Link to="/unidocs" className="excel-extractor-btn excel-extractor-btn-unidocs">
+          Unidocs
+        </Link>
       </div>
     </div>
   )

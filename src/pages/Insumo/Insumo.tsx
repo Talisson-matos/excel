@@ -143,6 +143,11 @@ function Insumos() {
             <Link to="/acabado" className="insumos-extractor-btn insumos-extractor-btn-acabado">
                Produto Acabado
             </Link>
+
+            <Link to="/unidocs" className="insumos-extractor-btn excel-extractor-btn-unidocs">
+              Unidocs
+            </Link>
+
         </div>
         <div className="insumos-extractor-content-card">
             <h1 className="insumos-extractor-page-title">Garrafas de Insumos</h1>

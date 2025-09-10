@@ -176,6 +176,18 @@
   background-color: #4b5563;
 }
 
+.excel-extractor-btn-unidocs {
+  background-color: #1e40af;
+  color: #ffffff;
+  border-color: #1e40af;
+}
+
+.excel-extractor-btn-unidocs:hover {
+  background-color: #1a347c;
+  border-color: #193279;
+}
+
+
 /* Responsividade */
 @media (max-width: 768px) {
   .insumos-extractor-main-container {

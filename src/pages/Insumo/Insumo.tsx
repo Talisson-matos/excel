@@ -109,6 +109,8 @@ function Insumos() {
             novaLinha[12] = destinoUpper; // Coluna M
         }
 
+        novaLinha[16] = 'GARRAFA DE INSUMOS'; // Coluna O
+        novaLinha[23] = 'TERCEIRO'; // Coluna AJ
         novaLinha[36] = 'Frete Lotação';
         novaLinha[47] = 'Frete Lotação';
 

@@ -77,12 +77,12 @@ function Acabado() {
         const mapa: [number, number][] = [
             [1, 0],   // Coluna B → Coluna A
             [1, 7],   // Coluna B → Coluna H
-            [7, 19],  // Coluna H → Coluna T
-            [8, 17],  // Coluna I → Coluna R
-            [9, 18],  // Coluna J → Coluna S
-            [10, 20], // Coluna K → Coluna U
-            [18, 36], // Coluna S → Coluna AK
-            [20, 47], // Coluna U → Coluna AV
+            [7, 20],  // Coluna H → Coluna T
+            [8, 18],  // Coluna I → Coluna R
+            [9, 19],  // Coluna J → Coluna S
+            [10, 21], // Coluna K → Coluna U
+            [18, 37], // Coluna S → Coluna AK
+            [20, 48], // Coluna U → Coluna AV
         ];
 
         mapa.forEach(([origem, destino]) => {
@@ -104,8 +104,10 @@ function Acabado() {
             novaLinha[12] = destino.trim().toUpperCase();    // Coluna M
         }
 
-        novaLinha[35] = 'Frete Lotação'; // Coluna AJ
-        novaLinha[46] = 'Frete Lotação'; // Coluna AU
+        novaLinha[16] = 'PA'; // Coluna R
+        novaLinha[36] = 'Frete Lotação'; // Coluna AJ
+        novaLinha[47] = 'Frete Lotação'; // Coluna AU
+        
 
         return novaLinha;
     };

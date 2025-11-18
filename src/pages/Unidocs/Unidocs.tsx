@@ -99,6 +99,8 @@ function Unidocs() {
         }
 
         novaLinha[8] = new Date().toLocaleDateString(); // Coluna I → data de hoje
+        novaLinha[16] = 'PA'; // Coluna O
+        novaLinha[23] = 'TERCEIRO';
 
         const origemUpper = origem.trim().toUpperCase();
         if (origemUpper) {
